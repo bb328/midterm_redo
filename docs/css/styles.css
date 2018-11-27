@@ -2,6 +2,7 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    height: 960px;
 }
 
 #logo {
@@ -13,7 +14,6 @@
     text-align: right;
     top: 50px;
     right: 35px;
-    font-family: helvetica, serif;
 }
 
 .displayInline {
@@ -43,7 +43,6 @@ a {
     top: 50px;
     left: 50px;
     color: white;
-    
 }
 
 .link {
@@ -51,7 +50,7 @@ a {
     opacity: 1;
 }
 
-#footer {
+#footer1 {
     border: solid black;
     margin-left: auto;
     margin-right: auto;
@@ -65,13 +64,33 @@ a {
     padding-top: 25px;
     top: 550px;
 }
+#footer2{
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 954px;
+    height: 75px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    clear: both;
+    bottom: 131px;
+    padding-top: 25px;
+    top: 420px;
+}
 
 #mountainsPic {
-    border: solid black;
-    width: 291px;
-    height: 199px;
+    width: auto;
+    height: auto;
     float: left;
-    top: 50px;
+    top: 142px;
+    left: -173px;
+    margin: 0.5em;
+    padding: 1.1em;
+}
+.thinBorder{
+    border: thin black solid;
+    height: auto;
 }
 
 .posRel{
@@ -81,8 +100,31 @@ a {
 .marginFix{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+#table{
+    left: -272px;
+    float: right;
+    top: 160px;
+    right: 121px;
+}
+
 
 .font{
     font-family: helvetica, serif;
+}
+
+.content{
+    left: 30px;
+}
+#headingAndText{
+    top: 170px;
+    right: 145px;
+}
+.floatRight{
+    float: right;
+}
+.floatLeft{
+    float: left;
 }
