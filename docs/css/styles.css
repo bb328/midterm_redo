@@ -1,8 +1,5 @@
 #wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 960px;
 }
 
 #logo {
@@ -14,6 +11,7 @@
     text-align: right;
     top: 50px;
     right: 35px;
+    ;
 }
 
 .displayInline {
@@ -64,7 +62,8 @@ a {
     padding-top: 25px;
     top: 550px;
 }
-#footer2{
+
+#footer2 {
     border: solid black;
     margin-left: auto;
     margin-right: auto;
@@ -88,43 +87,54 @@ a {
     margin: 0.5em;
     padding: 1.1em;
 }
-.thinBorder{
+
+.thinBorder {
     border: thin black solid;
     height: auto;
 }
 
-.posRel{
+.posRel {
     position: relative;
 }
 
-.marginFix{
+.marginFix {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
 }
-#table{
+
+#table {
     left: -272px;
     float: right;
     top: 160px;
     right: 121px;
 }
 
-
-.font{
+.font {
     font-family: helvetica, serif;
 }
 
-.content{
+.content {
     left: 30px;
 }
-#headingAndText{
+
+#headingAndText {
     top: 170px;
     right: 145px;
 }
-.floatRight{
+
+.floatRight {
     float: right;
 }
-.floatLeft{
+
+.floatLeft {
     float: left;
+}
+.clearMargin {
+    margin: 0px;
+}
+
+.clearPadding {
+    padding: 0px;
 }
