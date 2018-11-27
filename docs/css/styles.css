@@ -13,6 +13,7 @@
     text-align: right;
     top: 50px;
     right: 35px;
+    font-family: helvetica, serif;
 }
 
 .displayInline {
@@ -42,11 +43,12 @@ a {
     top: 50px;
     left: 50px;
     color: white;
-    font-family: helvetica, serif;
+    
 }
 
 .link {
     left: 280px;
+    opacity: 1;
 }
 
 #footer {
@@ -60,12 +62,11 @@ a {
     color: white;
     clear: both;
     bottom: 131px;
-    font-family: helvetica, serif;
     padding-top: 25px;
     top: 550px;
 }
 
-.mountains {
+#mountainsPic {
     border: solid black;
     width: 291px;
     height: 199px;
@@ -80,4 +81,8 @@ a {
 .marginFix{
     margin-left: auto;
     margin-right: auto;
+}
+
+.font{
+    font-family: helvetica, serif;
 }
